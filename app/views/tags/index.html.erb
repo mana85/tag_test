@@ -1,0 +1,13 @@
+<h1>Tags#index</h1>
+
+<h2>Actions --></h2>
+<%= link_to 'Top', root_path %>
+
+<h2>Tags --></h2>
+<ul>
+  <% @tags.each do |tag| %>
+  <li>
+    <%# タグの名前と関連づく記事数を表示 %>
+  </li>
+  <% end %>
+</ul>
